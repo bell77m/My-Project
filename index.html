@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compax — Fast Food ราคานิสิต สำหรับชาวม.เกษตร</title>
+  <meta name="description" content="Compax ร้านอาหารฟาสต์ฟู้ด ราคาถูก อร่อย บริการดี ปรุงใหม่ทุกออเดอร์ สำหรับนิสิตมหาวิทยาลัยเกษตรศาสตร์" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">Compax<span>.</span></a>
+      <nav class="nav" id="nav" aria-label="เมนูหลัก">
+        <a href="#services">เมนู</a>
+        <a href="#why">ทำไมเลือกเรา</a>
+        <a href="#contact">ติดต่อ</a>
+        <a href="#cta" class="nav-cta">สั่งเลย</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="เปิดหรือปิดเมนู" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-badge">Fast Food ราคานิสิต &middot; ปรุงใหม่ทุกออเดอร์</p>
+          <h1>อิ่มเร็ว อร่อยคุ้ม สำหรับชาว<span class="highlight">ม.เกษตร</span></h1>
+          <p class="hero-sub">Compax ร้านฟาสต์ฟู้ดที่คนหิวต้องนึกถึง ราคาเบา ๆ กระเป๋าไม่พรุน อร่อยจนต้องสั่งซ้ำ บริการไวแบบไม่ให้รอนาน</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">ดูเมนู</a>
+            <a href="#contact" class="btn btn-ghost">สั่งเลย / ติดต่อ</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>ราคาเบา ๆ</strong><span>คุ้มค่าในงบนิสิต</span></li>
+            <li><strong>ปรุงใหม่ทุกครั้ง</strong><span>ร้อน สะอาด สดใหม่</span></li>
+            <li><strong>บริการเป็นมิตร</strong><span>ไว และยิ้มแย้ม</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="plate">
+            <img src="assets/hero-burger.jpg" alt="เบอร์เกอร์" />
+          </div>
+          <span class="chip chip-a">ราคานิสิต</span>
+          <span class="chip chip-b">ปรุงใหม่</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">เมนูประจำร้าน</span>
+          <h2>เมนูเด็ดที่อิ่มไว อร่อยคุ้ม</h2>
+          <p>ฟาสต์ฟู้ดที่สั่งแล้วไม่ผิดหวัง ปรุงใหม่ทุกออเดอร์ เลือกได้ตามงบนะ</p>
+        </div>
+        <div class="grid-cards">
+          <article class="card">
+            <div class="card-icon icon-green">
+              <span class="material-symbols-outlined" aria-hidden="true">lunch_dining</span>
+            </div>
+            <h3>เบอร์เกอร์</h3>
+            <p>ปังนุ่ม เนื้อแน่น ซอสเข้มข้น เบอร์เกอร์ร้อน ๆ ปรุงใหม่ทุกชิ้น</p>
+            <span class="card-tag">ตัวท็อปขายดี</span>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-amber">
+              <span class="material-symbols-outlined" aria-hidden="true">dinner_dining</span>
+            </div>
+            <h3>ไก่ทอด</h3>
+            <p>กรอบนอกนุ่มใน สูตรเครื่องหมักเฉพาะของร้าน หอมจนต้องสั่งซ้ำ</p>
+            <span class="card-tag">เมนูต้องลอง</span>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-red">
+              <span class="material-symbols-outlined" aria-hidden="true">takeout_dining</span>
+            </div>
+            <h3>เฟรนช์ฟราย</h3>
+            <p>กรอบฟู เลือกได้ทั้งแบบเกลือมัน ๆ หรือชีสซอสเข้มข้น</p>
+            <span class="card-tag">ของกินเล่นเคียง</span>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-blue">
+              <span class="material-symbols-outlined" aria-hidden="true">local_drink</span>
+            </div>
+            <h3>เครื่องดื่มปั่น</h3>
+            <p>ปั่นสด ๆ เย็นชื่นใจ สายรอระหว่างคาบต้องไม่พลาด</p>
+            <span class="card-tag">ราคาเบา ๆ</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-why" id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow eyebrow-inverse">ทำไมต้อง Compax</span>
+          <h2>เหตุผลที่ชาวม.เกษตรกลับมาซื้อซ้ำ</h2>
+          <p>ถูก ไม่ได้แปลว่าคุณภาพหาย อร่อยก็ต้องจริงใจ บริการก็ต้องจริงจัง</p>
+        </div>
+        <div class="grid-cards">
+          <article class="card card-dark">
+            <div class="card-icon icon-green">
+              <span class="material-symbols-outlined" aria-hidden="true">sell</span>
+            </div>
+            <h3>ราคาถูก คุ้มกว่าใคร</h3>
+            <p>งบนะก็อิ่มได้ ทานอิ่มคุ้มโดยไม่ต้องควักเงินเยอะ แถมยังมีโปรเซ็ตคุ้มให้สั่งได้บ่อย</p>
+          </article>
+          <article class="card card-dark">
+            <div class="card-icon icon-amber">
+              <span class="material-symbols-outlined" aria-hidden="true">star</span>
+            </div>
+            <h3>อร่อยจนต้องสั่งซ้ำ</h3>
+            <p>วัตถุดิบสดใหม่ หมักสูตรเฉพาะร้าน ปรุงใหม่ตามออเดอร์ รสชาติคงเส้นคงวาทุกครั้ง</p>
+          </article>
+          <article class="card card-dark">
+            <div class="card-icon icon-teal">
+              <span class="material-symbols-outlined" aria-hidden="true">sentiment_satisfied</span>
+            </div>
+            <h3>บริการดี ใจถึงคนซื้อ</h3>
+            <p>รับออเดอร์ไว ส่งไม่ช้า พนักงานยิ้มแย้มเป็นกันเอง อยากปรับเมนูบอกได้เลย</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">ติดต่อเรา</span>
+          <h2>สั่ง มาหา หรือถามตำแหน่งได้เลย</h2>
+          <p>อยากสั่งก่อนมา อยากรู้ว่าอยู่ตรงไหน หรืออยากถามเมนู บอกเราได้ทุกช่องทาง</p>
+        </div>
+        <div class="grid-cards">
+          <article class="card">
+            <div class="card-icon icon-green">
+              <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+            </div>
+            <h3>สถานที่</h3>
+            <p>ตั้งอยู่ใกล้มหาวิทยาลัยเกษตรศาสตร์ เดินถึงง่าย ไม่ไกลจากห้องเรียน</p>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-amber">
+              <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+            </div>
+            <h3>เวลาให้บริการ</h3>
+            <p>เปิดให้บริการทุกวัน ตั้งแต่ 10:00 – 21:00 น. หิวเมื่อไรก็แวะมาได้</p>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-blue">
+              <span class="material-symbols-outlined" aria-hidden="true">chat</span>
+            </div>
+            <h3>ช่องทางสั่งด่วน</h3>
+            <p>สั่งล่วงหน้าได้ผ่าน LINE และโทรตรงได้ที่ร้าน ตอบไวไม่ต้องรอ</p>
+            <div class="contact-links">
+              <a href="tel:0000000000" class="btn btn-small btn-primary">โทรหาร้าน</a>
+              <a href="https://line.me/ti/p/bellbell77m" class="btn btn-small btn-ghost">LINE: bellbell77m</a>
+              <a href="https://instagram.com/compax_tech.sol" class="btn btn-small btn-ghost">IG: compax_tech.sol</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="cta">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>หิวแล้วใช่ไหม?</h2>
+          <p>สั่งได้เลยวันนี้ ทั้งแวะซื้อหน้าร้าน โทรสั่งล่วงหน้า หรือทักหาเราทาง LINE</p>
+          <div class="cta-actions">
+            <a href="https://line.me/ti/p/bellbell77m" class="btn btn-accent">ทัก LINE สั่งเลย</a>
+            <a href="#contact" class="btn btn-light">ดูช่องทางติดต่อ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo logo-footer">Compax<span>.</span></a>
+          <p>ร้านฟาสต์ฟู้ดสำหรับชาวม.เกษตร ราคาเบา ๆ อร่อยคุ้ม บริการเป็นมิตร ปรุงใหม่ทุกออเดอร์</p>
+        </div>
+        <div class="footer-col">
+          <h4>เมนูลัด</h4>
+          <ul>
+            <li><a href="#services">เมนูประจำร้าน</a></li>
+            <li><a href="#why">ทำไมเลือกเรา</a></li>
+            <li><a href="#cta">สั่งเลย</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ติดต่อ</h4>
+          <ul>
+            <li>LINE: bellbell77m</li>
+            <li>IG: compax_tech.sol</li>
+            <li>เปิดทุกวัน 10:00 – 21:00 น.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Compax. สงวนลิขสิทธิ์</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="frap" href="https://line.me/ti/p/bellbell77m" aria-label="สั่งผ่าน LINE">
+    <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
