@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ติดต่อเรา — Compax Fast Food ม.เกษตร</title>
+  <meta name="description" content="ติดต่อ Compax ร้านฟาสต์ฟู้ดราคานิสิต ใกล้ม.เกษตร เปิดทุกวัน 10:00-21:00 สั่งผ่าน LINE โทร หรือทัก IG" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#hero" class="logo">Compax<span>.</span></a>
+      <nav class="nav" id="nav" aria-label="เมนูหลัก">
+        <a href="index.html#services">เมนู</a>
+        <a href="index.html#why">ทำไมเลือกเรา</a>
+        <a href="contact.html" class="active" aria-current="page">ติดต่อ</a>
+        <a href="index.html#cta" class="nav-cta">สั่งเลย</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="เปิดหรือปิดเมนู" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">ติดต่อเรา</span>
+        <h1>สั่ง มาหา หรือถามได้เลย</h1>
+        <p>อยากสั่งล่วงหน้า ถามทางมาร้าน หรือถามเมนู ทักมาได้ทุกช่องทาง ตอบไวไม่ต้องรอ</p>
+        <div class="page-hero-actions">
+          <a href="https://line.me/ti/p/bellbell77m" class="btn btn-primary">ทัก LINE สั่งเลย</a>
+          <a href="tel:0000000000" class="btn btn-ghost">โทรหาร้าน</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <article class="card">
+            <div class="card-icon icon-green">
+              <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+            </div>
+            <h3>สถานที่</h3>
+            <p>ตั้งอยู่ใกล้มหาวิทยาลัยเกษตรศาสตร์ เดินถึงง่าย ไม่ไกลจากห้องเรียน</p>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-amber">
+              <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+            </div>
+            <h3>เวลาให้บริการ</h3>
+            <p>เปิดให้บริการทุกวัน ตั้งแต่ 10:00 – 21:00 น. หิวเมื่อไรก็แวะมาได้</p>
+          </article>
+          <article class="card">
+            <div class="card-icon icon-blue">
+              <span class="material-symbols-outlined" aria-hidden="true">chat</span>
+            </div>
+            <h3>ช่องทางสั่งด่วน</h3>
+            <p>สั่งล่วงหน้าได้ผ่าน LINE และโทรตรงได้ที่ร้าน ตอบไวไม่ต้องรอ</p>
+            <ul class="contact-list">
+              <li><strong>LINE:</strong> <a href="https://line.me/ti/p/bellbell77m">bellbell77m</a></li>
+              <li><strong>IG:</strong> <a href="https://instagram.com/compax_tech.sol">compax_tech.sol</a></li>
+              <li><strong>โทร:</strong> <a href="tel:0000000000">000-000-0000</a></li>
+            </ul>
+            <div class="contact-links">
+              <a href="tel:0000000000" class="btn btn-small btn-primary">โทรหาร้าน</a>
+              <a href="https://line.me/ti/p/bellbell77m" class="btn btn-small btn-ghost">LINE: bellbell77m</a>
+              <a href="https://instagram.com/compax_tech.sol" class="btn btn-small btn-ghost">IG: compax_tech.sol</a>
+            </div>
+          </article>
+        </div>
+
+        <div>
+          <form class="card contact-form" id="contactForm" novalidate>
+            <h2>ส่งข้อความหาเรา</h2>
+            <p class="form-sub">ถามเมนู สั่งล่วงหน้า หรือเสนอแนะ กรอกแล้วกดส่งได้เลย</p>
+
+            <div class="form-group">
+              <label for="contactName">ชื่อ</label>
+              <input type="text" id="contactName" name="name" placeholder="เช่น น้องนิสิต" autocomplete="name" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactPhone">เบอร์โทร</label>
+                <input type="tel" id="contactPhone" name="phone" placeholder="08x-xxx-xxxx" autocomplete="tel" required />
+              </div>
+              <div class="form-group">
+                <label for="contactTopic">เรื่องที่ติดต่อ</label>
+                <select id="contactTopic" name="topic">
+                  <option value="order">สั่งล่วงหน้า</option>
+                  <option value="location">ถามทางมาร้าน</option>
+                  <option value="menu">ถามเมนู / ราคา</option>
+                  <option value="other">อื่น ๆ</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">ข้อความ</label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="เช่น ขอสั่งเบอร์เกอร์ 2 ชุด ไปรับตอนเที่ยง..." required></textarea>
+            </div>
+
+            <p class="form-error" id="formError" role="alert" hidden></p>
+            <p class="form-success" id="formSuccess" role="status" hidden></p>
+
+            <button type="submit" class="btn btn-primary btn-full">ส่งข้อความ</button>
+            <p class="form-note">รีบไหม? <a href="https://line.me/ti/p/bellbell77m">ทัก LINE</a> ตอบไวกว่า</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">แผนที่ร้าน</span>
+          <h2>อยู่ใกล้ ม.เกษตร หาง่าย</h2>
+          <p>ปักหมุดมหาวิทยาลัยเกษตรศาสตร์ เดินถึงง่าย แวะมาหน้าร้านได้เลย</p>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="แผนที่ร้าน Compax ใกล้มหาวิทยาลัยเกษตรศาสตร์"
+            src="https://www.google.com/maps?q=Kasetsart+University+Bangkok&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+        <div class="map-actions">
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Kasetsart+University+Bangkok" target="_blank" rel="noopener">เปิดใน Google Maps</a>
+          <a class="btn btn-ghost" href="index.html#cta">สั่งเลย</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html#hero" class="logo logo-footer">Compax<span>.</span></a>
+          <p>ร้านฟาสต์ฟู้ดสำหรับชาวม.เกษตร ราคาเบา ๆ อร่อยคุ้ม บริการเป็นมิตร ปรุงใหม่ทุกออเดอร์</p>
+        </div>
+        <div class="footer-col">
+          <h4>เมนูลัด</h4>
+          <ul>
+            <li><a href="index.html#services">เมนูประจำร้าน</a></li>
+            <li><a href="index.html#why">ทำไมเลือกเรา</a></li>
+            <li><a href="contact.html">ติดต่อเรา</a></li>
+            <li><a href="index.html#cta">สั่งเลย</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ติดต่อ</h4>
+          <ul>
+            <li>LINE: bellbell77m</li>
+            <li>IG: compax_tech.sol</li>
+            <li>เปิดทุกวัน 10:00 – 21:00 น.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Compax. สงวนลิขสิทธิ์</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="frap" href="https://line.me/ti/p/bellbell77m" aria-label="สั่งผ่าน LINE">
+    <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

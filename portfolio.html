@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>แกลเลอรีเมนู — Compax</title>
+  <meta name="description" content="แกลเลอรีเมนูอาหารของ Compax — เบอร์เกอร์ ไก่ทอด เฟรนช์ฟราย และเครื่องดื่มปั่น ราคานิสิต สำหรับชาวม.เกษตร" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Compax<span>.</span></a>
+      <nav class="nav" id="nav" aria-label="เมนูหลัก">
+        <a href="index.html#services">เมนู</a>
+        <a href="portfolio.html">แกลเลอรี</a>
+        <a href="index.html#why">ทำไมเลือกเรา</a>
+        <a href="index.html#contact">ติดต่อ</a>
+        <a href="index.html#cta" class="nav-cta">สั่งเลย</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="เปิดหรือปิดเมนู" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section section-cream" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">แกลเลอรี</span>
+          <h1>เมนูของ Compax</h1>
+          <p>ทุกจานปรุงใหม่ตามออเดอร์ เลือกดูตามหมวดที่ชอบ แล้วทักมาสั่งได้เลย</p>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="กรองตามหมวดเมนู">
+          <button class="filter-btn active" data-filter="all" type="button">ทั้งหมด</button>
+          <button class="filter-btn" data-filter="burger" type="button">เบอร์เกอร์</button>
+          <button class="filter-btn" data-filter="chicken" type="button">ไก่ทอด</button>
+          <button class="filter-btn" data-filter="sides" type="button">ของทานเล่น</button>
+          <button class="filter-btn" data-filter="drink" type="button">เครื่องดื่ม</button>
+        </div>
+
+        <div class="grid-cards">
+          <article class="card pf-card" data-cat="burger">
+            <img src="assets/hero-burger.jpg" alt="เบอร์เกอร์เนื้อ" loading="lazy" />
+            <div class="pf-body">
+              <h3>เบอร์เกอร์เนื้อ</h3>
+              <p>ปังนุ่ม เนื้อแน่น ซอสเข้มข้น ปรุงใหม่ทุกชิ้น</p>
+              <span class="card-tag">เมนูขายดี</span>
+            </div>
+          </article>
+          <article class="card pf-card" data-cat="burger">
+            <img src="assets/pf-chicken-burger.jpg" alt="เบอร์เกอร์ไก่กรอบ" loading="lazy" />
+            <div class="pf-body">
+              <h3>เบอร์เกอร์ไก่กรอบ</h3>
+              <p>ไก่กรอบชิ้นโต ซอสสูตรเฉพาะของร้าน</p>
+              <span class="card-tag">เมนูแนะนำ</span>
+            </div>
+          </article>
+          <article class="card pf-card" data-cat="chicken">
+            <img src="assets/pf-fried-chicken.jpg" alt="ไก่ทอด" loading="lazy" />
+            <div class="pf-body">
+              <h3>ไก่ทอด</h3>
+              <p>กรอบนอกนุ่มใน หมักเข้าเนื้อ หอมติดใจ</p>
+              <span class="card-tag">ต้องลอง</span>
+            </div>
+          </article>
+          <article class="card pf-card" data-cat="sides">
+            <img src="assets/pf-fries.jpg" alt="เฟรนช์ฟราย" loading="lazy" />
+            <div class="pf-body">
+              <h3>เฟรนช์ฟราย</h3>
+              <p>กรอบฟู กินเพลิน เลือกได้ทั้งเกลือและชีสซอส</p>
+              <span class="card-tag">ของกินเล่น</span>
+            </div>
+          </article>
+          <article class="card pf-card" data-cat="chicken">
+            <img src="assets/pf-combo.jpg" alt="ชุดไก่ทอดและเฟรนช์ฟราย" loading="lazy" />
+            <div class="pf-body">
+              <h3>ชุดสุดคุ้ม ไก่ + ฟราย</h3>
+              <p>ไก่ทอดคู่เฟรนช์ฟราย อิ่มจบในชุดเดียว</p>
+              <span class="card-tag">คุ้มกว่าแยกสั่ง</span>
+            </div>
+          </article>
+          <article class="card pf-card" data-cat="drink">
+            <img src="assets/pf-milkshake.jpg" alt="มิลค์เชคช็อกโกแลต" loading="lazy" />
+            <div class="pf-body">
+              <h3>มิลค์เชคช็อกโกแลต</h3>
+              <p>ปั่นสด เข้มข้น เย็นชื่นใจระหว่างคาบ</p>
+              <span class="card-tag">สดชื่น</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="cta">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>หิวแล้วใช่ไหม?</h2>
+          <p>สั่งได้เลยวันนี้ ทั้งแวะซื้อหน้าร้าน โทรสั่งล่วงหน้า หรือทักหาเราทาง LINE</p>
+          <div class="cta-actions">
+            <a href="https://line.me/ti/p/bellbell77m" class="btn btn-accent">ทัก LINE สั่งเลย</a>
+            <a href="index.html#contact" class="btn btn-light">ดูช่องทางติดต่อ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo logo-footer">Compax<span>.</span></a>
+          <p>ร้านฟาสต์ฟู้ดสำหรับชาวม.เกษตร ราคาเบา ๆ อร่อยคุ้ม บริการเป็นมิตร ปรุงใหม่ทุกออเดอร์</p>
+        </div>
+        <div class="footer-col">
+          <h4>เมนูลัด</h4>
+          <ul>
+            <li><a href="index.html#services">เมนูประจำร้าน</a></li>
+            <li><a href="portfolio.html">แกลเลอรี</a></li>
+            <li><a href="index.html#why">ทำไมเลือกเรา</a></li>
+            <li><a href="index.html#cta">สั่งเลย</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ติดต่อ</h4>
+          <ul>
+            <li>LINE: bellbell77m</li>
+            <li>IG: compax_tech.sol</li>
+            <li>เปิดทุกวัน 10:00 – 21:00 น.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Compax. สงวนลิขสิทธิ์</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="frap" href="https://line.me/ti/p/bellbell77m" aria-label="สั่งผ่าน LINE">
+    <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
